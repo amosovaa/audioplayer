@@ -3,8 +3,8 @@ import styles from './player.module.scss';
 import Context from '../../context/context';
 import Play from '../Play/Play';
 import Pause from '../Pause/Pause';
-import Next from '../Next/Next';
 import Prev from '../Prev/Prev';
+import Next from '../Next/Next';
 
 function Player(props) {
   const [isPlaying, setIsPlaying] = useState(false);
